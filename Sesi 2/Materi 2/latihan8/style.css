@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+.transportasi {
+  list-style-type: square;
+}
+.lokasi {
+  list-style-type: circle;
+}
+.merk {
+  list-style-type: upper-roman;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type Data di JS</title>
+  </head>
+  <body>
+    <h1>Type Data di JavaSript</h1>
+    <p><strong>Type Data Number di JS</strong></p>
+    <div id="hasil"></div>
+
+    <p><strong>Type Data String di JS</strong></p>
+    <div id="adalah"></div>
+
+    <p><strong>Type Data Array di JS</strong></p>
+    <div id="array"></div>
+
+    <p><strong>Type Data Objek di JS</strong></p>
+    <div id="map"></div>
+
+    <script>
+      var angka = 80;
+      var kalimat = "Belajar JS di Workshop FERD";
+      var transport = ["mobil", "motor", "pesawat", "kapal"];
+      var manusia = {
+        nama: "Taufik",
+        asal: "Nganjuk",
+        usia: 26,
+      };
+
+      document.getElementById("hasil").innerHTML = angka;
+      document.getElementById("adalah").innerHTML = kalimat;
+      document.getElementById("array").innerHTML = transport[3];
+      document.getElementById("map").innerHTML =
+        manusia.nama + " tinggal di " + manusia.asal;
+    </script>
+  </body>
+</html>

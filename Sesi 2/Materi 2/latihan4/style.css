@@ -1,0 +1,17 @@
+body {
+  background-color: wheat;
+}
+
+.link:hover {
+  color: blue;
+}
+.link:active {
+  color: yellow;
+}
+.link:link {
+  color: brown;
+}
+
+.link:visited {
+  color: black;
+}
